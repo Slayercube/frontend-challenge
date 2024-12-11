@@ -4,7 +4,8 @@
   cd/org
   - npm i or npm install
   - nx serve todo-app
-
+ 
+![Screenshot(https://github.com/user-attachments/assets/285c05c0-7e9f-415e-97f1-3a92afb35ee7)
 
 
 ## Tech to use
