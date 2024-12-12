@@ -1,4 +1,11 @@
 # frontend-challenge
+- on root npm i or npm install
+
+  cd/org
+  - npm i or npm install
+  - nx serve todo-app
+ 
+
 
 ## Tech to use
 - nx
