@@ -31,7 +31,7 @@ const AddTodo: React.FC = () => {
 
   return (
     <motion.div
-      className="flex items-center p-4 bg-white rounded-lg mb-4"
+      className="flex items-center px-4 bg-white rounded-lg"
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }} // Slow down the animation
@@ -49,12 +49,12 @@ const AddTodo: React.FC = () => {
           value={text}
           onChange={(e) => setText(e.target.value)}
           onKeyDown={handleKeyDown}
-          className="border border-gray-300  p-2 w-full rounded-lg pr-24  focus:outline-none"
+          className="border border-gray-300 border-x-0  p-2 w-full pr-24  focus:outline-none"
           placeholder="Add a new task"
         />
         <button
           onClick={addTodo}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 mr-1 h-8 bg-purple-500 text-white rounded-lg hover:bg-purple-700 flex items-center justify-center"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 mr-1 h-8 w-24 bg-purple-500 text-white rounded-lg hover:bg-purple-700 flex items-center justify-center"
         >
           Add Task
         </button>
